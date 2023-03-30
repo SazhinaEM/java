@@ -1,3 +1,4 @@
-document.writeln('<h1>Заголовок напечатан*** JS</h2>');
-let node = document.createTextNode('Подзаголвок');
+document.writeln
+document.writeln('<h1>Заголвок напечатан****JS</h1>');
+let node = document.createTextNode('Подзаголовок');
 document.body.appendChild(node);

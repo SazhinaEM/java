@@ -17,7 +17,7 @@ console.log(statusPriv);
 };
 
 // Извлекаем информацию о текущем статусе прививки
-var SecondFunction = function (statusPriv, infoname) {
+ SecondFunction = function (statusPriv, infoname) {
 
 //statusPriv = person[SNILS][7];
 
@@ -35,7 +35,7 @@ SecondFunction(statusPriv, infoname);
 
 //Предлагаем закончить или продолжить работу в этом окне
 while (confirm("Продолжить проверку прививочного статуса?")){
-ForSecond = FirstFunction(person, SNILS);
+    ForSecond = FirstFunction(person, SNILS);
 SecondFunction(statusPriv, infoname);
 
 }
